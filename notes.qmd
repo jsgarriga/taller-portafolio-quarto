@@ -1,0 +1,600 @@
+---
+title: "Create your stunning web portfolio for job hunting and freelance services with *Quarto* (no coding required)"
+format:
+  revealjs: 
+    theme: white
+    logo: images/logo.png
+    footer: "Create your stunning web portfolio with Quarto"
+    slide-number: true
+    menu:
+      side: right
+      width: normal
+---
+## About 
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Jan Strappa 
+(they / them)
+
+- Dr. in Computer Science, Information Systems Engineer
+CONICET (National Scientific and Technical Research Council, Argentina) 
+
+- Co-founder and organizer of **R-Ladies Mendoza** (see [R-Ladies Global](https://www.rladies.org/))
+
+:::
+
+::: {.column width="50%"}
+
+### Yaz Garriga
+- papagaye
+
+:::
+
+::::
+
+
+
+
+
+:::{.notes}
+
+[3 minutes:]
+
+Hi everyone, My name is Jan, my pronouns are they/them.
+I'm currently working as a researcher in Machine Learning and Parallel Computing in Mendoza, Argentina.
+
+I am also a co-founder and member of R-Ladies Mendoza.
+which is a community of R users that welcomes people of all underrepresented genders in tech, including trans men and nonbinary people.
+
+This workshop was made in collaboration with Yaz Garriga, who is a student of Sociology and...
+
+We made the materials together, and I'm going to be the speaker today.
+
+
+:::
+
+
+
+## Portfolios
+
+A portfolio is a collection of highlighted projects and previous works that show potential clients or employers your abilities.
+
+
+. . .
+
+
+
+:::{.r-stack}
+· · ·
+:::
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### Let's check out some cool Quarto portfolios
+
+[Andreas Handel](https://www.andreashandel.com/)
+
+[Danielle Navarro](https://blog.djnavarro.net/)
+
+[Bea Milz](https://beamilz.com/)
+:::
+::: {.column width="50%"}
+:::
+::::
+
+![](images/portfolio-andreas-example.png){.absolute bottom=60 right=50 width=45%}
+
+
+
+
+:::{.notes}
+
+
+What I'm going to show you is much simpler, but I wanted you take a glimpse of what you can do with Quarto.
+:::
+
+
+
+## Why make one?
+
+- attractive, professional, customizable 
+- a place to keep your info updated 
+- tell your story in your own words 
+
+. . .
+
+:::{.r-stack}
+· · ·
+:::
+
+### Question {style="color: darkred;"}
+
+As a trans / LGBTQ+ / queer person, what do you feel is your greatest challenge for making a portfolio, profile, etc?
+
+
+::: {.notes}
+- attractive, professional, customizable 
+- a place to keep your info updated, it's useful to have a link to your website on job applications or on your resume so that others can see your latest work
+- tell your story in your own words, because you can choose what to show about yourself and how to show it... I can't emphasize enough how important this is for trans people, since we can be especially vulnerable when we cannot control the information that is published about us
+:::
+
+
+
+## Why Quarto? What if I'm not a programmer? {.smaller}
+
+- You don't need to know programming
+- You can learn while doing
+- Documents are in plain text, you can use any editing software
+- Open source: freedom, community
+- More control over your website (customizable, efficient)
+- Many hosting options (free / paid)
+- *For programmers: Quarto supports R, Python, Julia and Observable; lots of cool features for code, reproducibility, and more!* 
+
+
+![](images/quarto.png){.absolute top=100 right=70}
+
+:::{.notes}
+
+You don't need to know programming, although it's good if you can understand errors, for example in rendering and how to search for a solution
+
+You can learn while doing, because markdown and Quarto are really easy to use 
+
+Documents are in plain text, they're easy to maintain and modify with any editor of your choice
+
+It's Open source which means you have more freedom than with closed tools, there's always a community doing interesting stuff and making more on top of this
+
+More control over your website (you can customize every aspect, some free sites for making websites are very slow and they may show ads or change your content in ways you don't like, but we're going to see some free options that are much better)
+
+You have many hosting options (free / paid)
+
+And if you *are* a programmer, you can embed and execute code in different languages, and you have several tools for showing and hiding source code which are really great.
+
+:::
+
+## First steps 
+
+1. Download & install **VSCode**: [https://code.visualstudio.com](https://code.visualstudio.com)
+2. Download & install **Quarto**: [https://quarto.org/docs/get-started](https://quarto.org/docs/get-started)
+3. In VSCode, install **Quarto extension**: Extensions → search bar: "quarto" → Install
+
+. . .
+
+[*While you do this...*]{style="color: darkred;"}
+
+
+
+
+## A bit of history & context  {.smaller}
+
+
+
+- **Markdown** (.md): markup language
+- [**Quarto**](https://quarto.org/) (.qmd): open source system for publishing (Markdown + executable code)
+
+:::: {.columns}
+::: {.column width="50%"}
+```{.md}
+A First Level Header
+====================
+
+A Second Level Header
+---------------------
+
+Some of these words *are emphasized*.
+Some of these words _are emphasized also_.
+
+Use two asterisks for **strong emphasis**.
+Or, if you prefer, __use two underscores instead__.
+
+### Header 3
+
+> This is a blockquote.
+>
+> ## This is an H2 in a blockquote
+
+A list
+
+- one item
+- another item
+
+An ordered list
+
+1. one step
+1. another step
+```
+:::
+::: {.column width="45%"}
+![](images/markdown-example.png){width=80%}
+:::
+::::
+
+:::{.notes}
+I believe it's nice to know something about the tools that you're using and why. It may be confusing if you just repeat steps and don't have any background. 
+
+So the first thing I'd like to explain is that we will mostly be working with a kind of markup language called Markdown. 
+These kind of languages are used to give format to documents with a very simple syntax using plain text files, and then you can convert these files into a number of different formats, such as PDF documents, ebooks, or, as in our case, to html for the web. 
+
+There are many tools that use Markdown and add a their own functionality on top of it. 
+One of them is Quarto, which allows you to create websites, blogs, reports, presentations, in a very simple way.
+
+:::
+
+
+## Tools and formats we will use
+
+|Name      | Extension| Purpose       |
+|----------|----------|---------------|
+|Quarto    | .qmd     | content       |
+|YAML      | .yml     | configuration |
+|CSS       | .css     | style         |
+|HTML      | .html    | output        |
+
+![](images/qmd-how-it-works.png){width=100%}
+
+
+
+## Do we have to write all these files by ourselves? {.smaller}
+
+. . . 
+
+No! We'll use an IDE (*Integrated Development Environment*): 
+
+**VSCode**, RStudio, Vim, text editors...
+
+
+. . .
+
+:::{.r-stack}
+· · ·
+:::
+
+
+### Process overview
+
+1. IDE creates the 'skeleton' for your blog
+2. you focus on content and configuration
+3. IDE renders the project
+4. repeat steps 2 to 4
+5. publish online
+
+![](images/fix.jpg){.absolute bottom=60 right=50 width=35%}
+
+:::{.notes}
+/ So this is what we're going to use: we're going to create a blog directly with Quarto, and we're going to edit the style, layout and content so that it becomes our portfolio. I'm going to show you the basics, which only involve editing some yml and qmd files, but there is a lot you can do from there; for instance you can add your own custom CSS to change the style. 
+
+/ You may be asking yourselves: do we have to write all these files? Of course not.
+
+/ We're going to use an IDE, or integrated development environment, which is a software that performs a lot of your tasks automatically.
+I'm going to use VSCode for this workshop because it's very easy to use, but there are many others, you can choose whichever one you like.
+
+/ So using your IDE the process will be like this. First you will tell VSCode to create the basic structure or skeleton for our blog, then we will edit the files with whatever content we want to create, we will change some of the configuration, add some images; and then we simply tell the IDE to render our project, which will create the website, and we'll be able to access it locally.
+
+Once we're happy with our project, we will see our publishing options.
+
+:::
+
+
+## Creating a blog
+
+
+:::: {.columns}
+::: {.column width="45%"}
+1. Open **VSCode**
+1. Open the **Command Palette**
+2. Type 'quarto'
+3. Choose 'Quarto: Create Project'
+4. Choose 'Blog Project'
+:::
+
+::: {.column width="55%"}
+[![](images/createblogvscode.png)]("Create Project menu in VSCode")
+:::
+
+::::
+
+
+:::{.notes}
+But let's begin with our first steps.
+
+:::
+
+
+## Creating a blog
+
+### Project structure in VSCode
+
+[![](images/skeleton.png)]("Project structure in VSCode")
+
+
+## `_quarto.yml`
+
+```{.yml}
+project:
+  type: website
+
+website:
+  title: "Deep Space Solutions"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/jstrappa
+      - icon: twitter
+        href: https://twitter.com/StarTrek
+format:
+  html:
+    theme: 
+      light: journal
+      dark: vapor
+    css: styles.css
+```
+
+- Choose title, add social media links, and choose a [blog theme](https://quarto.org/docs/websites/website-blog.html#themes)
+
+
+## `about.qmd`
+
+```{.yml}
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/StarTrek
+    - icon: linkedin
+      text: Speaker's LinkedIn
+      href: https://www.linkedin.com/in/jan-strappa/?locale=en_US
+    - icon: github
+      text: Speaker's Github
+      href: https://github.com/jstrappa
+
+As a Research and Development Scientist, I bring a unique combination of scientific expertise and leadership skills to drive innovation and discovery. With premier distinctions in astrophysics, exoarchaeology, exobiology, and zoology from Starfleet Academy, I have a deep understanding of various scientific disciplines. As the Chief Science Officer of Deep Space Nine, I discovered the Bajoran wormhole, opening up a new era in Federation history. I also successfully commanded a critical mission to destroy a major Dominion sensor array, significantly impacting their dominance in five sectors. I am excited to bring my diverse skill set to a new challenge and make significant contributions to the field of research and development.
+
+---
+
+
+```
+- Save your picture as `profile.jpg`, choose template, add social media links, and write your *about* text!
+- There are more [templates](https://quarto.org/docs/websites/website-about.html#templates)
+
+
+## Post template: `index.qmd`
+
+```{.yml}
+---
+title: 'post title'
+subtitle: 'post subtitle'
+author:
+  - name: your name
+date: "mm/dd/yyyy"
+lang: en
+categories:
+  - data
+  - code
+  - blog
+draft: true # change to false to publish!
+description: 'description for this post'
+image: ""
+archives:
+  - ""
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+## Section
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+```
+
+- **Tip**: Keep a `template` folder for posts with this file inside. When making a new post, copy it, rename it, and edit the content to make your post. Change `draft: false` to make it public.
+
+
+## Example Post
+
+```{.yml}
+---
+title: 'Wormhole discovery'
+subtitle: 'Journal entry'
+author:
+  - name: Jadzia
+date: "04/13/2369"
+lang: en
+categories:
+  - data
+  - code
+  - blog
+draft: false # change to false to publish
+description: 'My journal entry for when I found the wormhole'
+image: ""
+archives:
+  - ""
+---
+
+Something something
+
+![](wormhole.jpg)
+
+```
+
+- **Tip**: Remember to double check image filenames (you can use autocomplete in VSCode)
+
+
+## Additional elements: Projects section {.smaller}
+
+1. Create a folder `projects` (works like `posts`). 
+2. Create `projects.qmd`:
+
+```{.yml}
+---
+title: "Projects"
+listing:
+  contents: projects     # folder with your project posts
+  sort: "title"
+  type: grid
+  image-height: 260px
+  categories: true
+  sort-ui: true          # order by
+  filter-ui: true        # filter by
+page-layout: full
+title-block-banner: false
+comments: false
+---
+```
+
+3. In `_quarto.yml`, add inside `navbar`: 
+
+```{.yml}
+    - text: Projects
+      href: projects.qmd
+```
+
+
+## Additional elements: downloadable resume {.smaller}
+
+1. Copy your resume inside the project folder, e.g. `files/resume.pdf`.
+
+2. In `_quarto.yml`, add inside `navbar`: 
+
+```{.yml}
+      - text: CV
+        href: resume.qmd
+```
+
+3. Create `resume.qmd`:
+
+```{.html}
+<iframe 
+  width="1050" 
+  height="1200" 
+  src="files/resume.pdf">
+</iframe>
+```
+
+# Publishing
+
+## How to publish your Quarto portfolio
+
+1. Sign up at Quarto Pub: [https://quartopub.com/sign-up](https://quartopub.com/sign-up)
+
+:::{.r-stack}
+
+![](images/quartopubsign.png){width=80%}
+
+:::
+
+##
+
+2. In the terminal, type: `quarto publish quarto-pub`
+3. Authenticate (first time)
+
+![](images/terminal-publish.png)
+
+## Published portfolio: Homepage
+
+![](images/portfolio-home-favicon-published.png)
+
+
+## Published portfolio: About
+
+![](images/portfolio-about-favicon-published.png)
+
+# Final thoughts
+
+## It looks so easy, but... (we're trans)
+
+- What to do if my legal name is different?
+- Should I let them know that I'm trans?
+- How do I talk about previous work without outing myself?
+- Should I put my pronouns or not?
+- There is information about me online that I don't want employers/clients to see. What can I do?
+
+
+## My thoughts {.smaller}
+
+- No single answer; do what feels best for you
+- It's OK to have different information for different audiences (e.g. resume vs public)
+- It's OK to have conflicting information (e.g. you wrote an article under your previous name, you can cite yourself with your REAL name)
+- Learn about data privacy:  
+     - some information is not needed (age, gender)
+     - configure irrelevant accounts to be hidden from web search engines
+     - the 'right to be forgotten': asking for private information to be deleted from public view (usually not easy to achieve)
+     - create more profiles on websites that have high visibility to draw more attention to your *current* situation, not past 
+
+[*Remember that you are valid and deserve unconditional love!*]{style="background=yellow;"}
+
+::: {.notes}
+- There is no single answer so don't try to find the perfect fix for everything
+- In general, it's best to do what feels best for you and don't feel guilty for trying to be safe. We don't have to be heroes or activists all the time, we don't have to be visible all the time. But it's also important to try to check if your clients or employers are respectful, and for some of us, being upfront might work best sometimes.
+- It's OK to have different information for different audiences (e.g. resume vs public web portfolio or LinkedIn profile): so, maybe you want to share your pronouns with potential employers but not the whole world, so you have a PDF file that you send companies with more information. Or maybe you don't say everything on your resume
+- It's OK to have conflicting information in different places (e.g. citing yourself with your REAL name while the original publication has your name assigned at birth) I haven't had any situation where someone has asked me why my name was different. I honestly believe they didn't bother reading the whole citation, so don't take this as general advice, it's just an example to show you that you don't have to solve every problem. You don't have to be the sole database manager of your identity in the whole world!!
+- Learn about data privacy: 
+     - think before sharing: some information is not needed (age, gender, address) 
+     - configure accounts to be hidden from web search engines (if they allow it)
+     - the 'right to be forgotten' on the internet: asking for your private information to be deleted from public view (usually not easy to achieve)
+     - if you want to - attention from some web result, create more profiles on websites that have high visibility (e.g. for researchers, arXiv, ResearchGate, etc) (nobody goes past the 1st page of results!)
+     - be aware that your public (or even private) information may be accessed by scraping tools, sold, analyzed and/or published somewhere else
+:::
+
+
+
+# Thank you for joining
+
+
+:::{.r-stack}
+
+![](images/yourehere.jpg){width=60%}
+:::
+
+
+## Useful links {.smaller}
+
+- Workshop slides: TODO
+- [Quarto tutorial for blog (VSCode / RStudio / Terminal)](https://quarto.org/docs/websites/website-blog.html)
+- [Quarto tutorial for Data Science web portfolio (RStudio)](https://deepshamenghani.quarto.pub/portfolio-with-quarto-workshop)
+- [Markdown basics](https://daringfireball.net/projects/markdown/basics), [Markdown Guide](https://www.markdownguide.org/)
+
+
+
+
+### Alternative IDEs:
+- Download & Install [RStudio](https://posit.co/downloads/)
+- Sign up to use [Posit Cloud (previously RStudio Cloud)](https://posit.cloud/)
+
+
+### Alternative publishing options:
+- [Netlify](https://quarto.org/docs/publishing/netlify.html), [Github Pages](https://quarto.org/docs/publishing/github-pages.html), [and more...](https://quarto.org/docs/publishing/)
+- Other formats, such as PDF, epub, etc.
+
+
+::: {.notes}
+Here are some useful links, which I hope are available in the chat. And credits for some of the content I've used.
+:::
+
+## Credits {.smaller}
+
+- [Quarto workflow diagram](https://quarto.org/docs/get-started/hello/vscode.html)
+- Beautiful illustrations: [The Latest Kate](https://www.thelatestkate.art/)
+- [Jadzia Dax - Memory Alpha](https://memory-alpha.fandom.com/wiki/Jadzia_Dax)
+- [Jadzia Dax - Wikipedia](https://en.wikipedia.org/wiki/Jadzia_Dax)
+- Jadzia photo: [Wikipedia](https://en.wikipedia.org/wiki/File:JadziaDax.jpg), © Paramount Pictures
+- Favicon: 
+
+
+```{=html}
+<a target="_blank" href="https://icons8.com/icon/1NsQsxPDsTZJ/star-trek-deep-space-nine">Star Trek Deep Space Nine</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+```
+
+
+
+
