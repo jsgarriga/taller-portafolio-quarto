@@ -12,52 +12,62 @@ format:
 ---
 ## About {.smaller}
 
-
 :::: {.columns}
-
 ::: {.column width="47%"}
 
-
-:::{.r-stack}
-![](images/jan.jpg){width=200px}
+:::: {.columns}
+::: {.column width="35%"}
+![](images/jan.jpg){width=150px}
 :::
-
+::: {.column width="55%"}
 ### Jan Strappa 
 (they / them)
+:::
+::::
 
 - Dr. in Computer Science, Information Systems Engineer
 CONICET (National Scientific and Technical Research Council, Argentina) 
 
 - Co-founder and organizer of **R-Ladies Mendoza** (see [R-Ladies Global](https://www.rladies.org/))
 
-:::
+![](images/envelope-solid.svg){width=16px} 
+[jansf@disroot.org](mailto://jansf@disroot.org)
 
+![](images/github.svg){width=16px} 
+[jstrappa](https://github.com/jstrappa) | 
+![](images/mastodon.png){width=16px} 
+[todon.eu@jansf](https://todon.eu/@jansf) 
+
+![](images/linkedin.svg){width=16px}
+[Jan Strappa Figueroa](https://www.linkedin.com/in/jan-strappa/?locale=en_US)
+
+
+
+:::
 ::: {.column width="47%"}
 
-:::{.r-stack}
-![](images/jess.jpg){width=200px}
+:::: {.columns}
+::: {.column width="35%"}
+![](images/jess.jpg){width=170px}
 :::
-
-
+::: {.column width="55%"}
 ### Jess Garriga
 (they / them)
+:::
+::::
 
 - Student of Sociology at the National University of Cuyo (Argentina). 
 
 - They are currently working on a research project on "Big Data and Social Sciences".
 
+![](images/linkedin.svg){width=16px} [Jess Garriga](https://www.linkedin.com/in/jess-garriga-b8bb95240/)
 
 :::
-
 ::::
 
 
-
-
-
 :::{.notes}
-
-[3 minutes:]
+[<3 minutes]
 
 Hi everyone, My name is Jan, my pronouns are they/them.
 I'm currently working as a researcher in Machine Learning and Parallel Computing in Mendoza, Argentina.
@@ -69,29 +79,29 @@ This workshop was made in collaboration with Jess Garriga, who is a student of S
 
 
 We made the materials together, and I'm going to be the speaker today.
-
-
 :::
 
+## Online slides
+
+[https://jstrappa.quarto.pub/quarto-portfolio-workshop](https://jstrappa.quarto.pub/quarto-portfolio-workshop)
+
+:::{.notes}
+First of all, if your haven't already, you can open the slides in your web browser if you want to access the links more quickly, or navigate them at your own pace.
+:::
 
 
 ## Portfolios
 
 A portfolio is a collection of highlighted projects and previous works that show potential clients or employers your abilities.
 
-
 . . .
-
-
 
 :::{.r-stack}
 · · ·
 :::
 
-
 :::: {.columns}
 ::: {.column width="50%"}
-
 ### Let's check out some cool Quarto portfolios
 
 [Andreas Handel](https://www.andreashandel.com/)
@@ -107,18 +117,18 @@ A portfolio is a collection of highlighted projects and previous works that show
 ![](images/portfolio-andreas-example.png){.absolute bottom=60 right=50 width=45%}
 
 
-
-
 :::{.notes}
+So, let's begin by saying that a portfolio is...
 
+And I want to show you some cool portfolios, all of them made with Quarto. 
+
+...
 
 What I'm going to show you is much simpler, but I wanted you take a glimpse of what you can do with Quarto.
 :::
 
 
-
 ## Why make one?
-
 - attractive, professional, customizable 
 - a place to keep your info updated 
 - tell your story in your own words 
@@ -133,13 +143,14 @@ What I'm going to show you is much simpler, but I wanted you take a glimpse of w
 
 As a trans / LGBTQ+ / queer person, what do you feel is your greatest challenge for making a portfolio, profile, etc?
 
-
 ::: {.notes}
 - attractive, professional, customizable 
-- a place to keep your info updated, it's useful to have a link to your website on job applications or on your resume so that others can see your latest work
+- a place to keep your info updated: it's useful to have a link to your website on job applications or on your resume so that others can see your latest work, even if they have an outdated file
 - tell your story in your own words, because you can choose what to show about yourself and how to show it... I can't emphasize enough how important this is for trans people, since we can be especially vulnerable when we cannot control the information that is published about us
-:::
 
+I want to ask a question...
+
+:::
 
 
 ## Why Quarto? What if I'm not a programmer? {.smaller}
@@ -152,7 +163,6 @@ As a trans / LGBTQ+ / queer person, what do you feel is your greatest challenge 
 - Many hosting options (free / paid)
 - *For programmers: Quarto supports R, Python, Julia and Observable; lots of cool features for code, reproducibility, and more!* 
 
-
 ![](images/quarto.png){.absolute top=100 right=70}
 
 :::{.notes}
@@ -163,13 +173,13 @@ You can learn while doing, because markdown and Quarto are really easy to use
 
 Documents are in plain text, they're easy to maintain and modify with any editor of your choice
 
-It's Open source which means you have more freedom than with closed tools, there's always a community doing interesting stuff and making more on top of this
+It's Open source which means you have more freedom than with closed tools, there's always a community doing interesting stuff, solving problems, and making more on top of this
 
 More control over your website (you can customize every aspect, some free sites for making websites are very slow and they may show ads or change your content in ways you don't like, but we're going to see some free options that are much better)
 
 You have many hosting options (free / paid)
 
-And if you *are* a programmer, you can embed and execute code in different languages, and you have several tools for showing and hiding source code which are really great.
+And if you *are* a programmer, you can embed and execute code in different languages, and you have several tools for showing,copying and hiding source code which are really great.
 
 :::
 
@@ -177,7 +187,8 @@ And if you *are* a programmer, you can embed and execute code in different langu
 
 1. Download & install **VSCode**: [https://code.visualstudio.com](https://code.visualstudio.com)
 2. Download & install **Quarto**: [https://quarto.org/docs/get-started](https://quarto.org/docs/get-started)
-3. In VSCode, install **Quarto extension**: Extensions → search bar: "quarto" → Install
+3. In VSCode, install **Quarto extension**: 
+    - Extensions → search bar: "quarto" → Install
 
 . . .
 
@@ -185,10 +196,7 @@ And if you *are* a programmer, you can embed and execute code in different langu
 
 
 
-
 ## A bit of history & context  {.smaller}
-
-
 
 - **Markdown** (.md): markup language
 - [**Quarto**](https://quarto.org/) (.qmd): open source system for publishing (Markdown + executable code)
@@ -234,11 +242,11 @@ An ordered list
 I believe it's nice to know something about the tools that you're using and why. It may be confusing if you just repeat steps and don't have any background. 
 
 So the first thing I'd like to explain is that we will mostly be working with a kind of markup language called Markdown. 
+
 These kind of languages are used to give format to documents with a very simple syntax using plain text files, and then you can convert these files into a number of different formats, such as PDF documents, ebooks, or, as in our case, to html for the web. 
 
 There are many tools that use Markdown and add a their own functionality on top of it. 
-One of them is Quarto, which allows you to create websites, blogs, reports, presentations, in a very simple way.
-
+One of them (as you may have guessed) is Quarto, which allows you to create websites, blogs, reports, presentations, in a very simple way.
 :::
 
 
@@ -254,6 +262,11 @@ One of them is Quarto, which allows you to create websites, blogs, reports, pres
 ![](images/qmd-how-it-works.png){width=100%}
 
 
+:::{.notes}
+So this is what we're going to use: we're going to create a blog directly with Quarto, and we're going to edit the style, layout and content so that it becomes our portfolio. I'm going to show you the basics, which only involve editing some qmd files for the content, and yml files for the configuration, but there is a lot you can do from there; for instance you can add your own custom CSS to change the style. 
+
+How does it work? Well, we have our input files, which are qmd and others, then they will be converted, you don't have to worry about all that happens here in the middle, and finally you get to see and check your final result, and you can go back to editing your qmd files again.
+:::
 
 ## Do we have to write all these files by ourselves? {.smaller}
 
@@ -263,13 +276,11 @@ No! We'll use an IDE (*Integrated Development Environment*):
 
 **VSCode**, RStudio, Vim, text editors...
 
-
 . . .
 
 :::{.r-stack}
 · · ·
 :::
-
 
 ### Process overview
 
@@ -282,8 +293,6 @@ No! We'll use an IDE (*Integrated Development Environment*):
 ![](images/fix.jpg){.absolute bottom=60 right=50 width=35%}
 
 :::{.notes}
-/ So this is what we're going to use: we're going to create a blog directly with Quarto, and we're going to edit the style, layout and content so that it becomes our portfolio. I'm going to show you the basics, which only involve editing some yml and qmd files, but there is a lot you can do from there; for instance you can add your own custom CSS to change the style. 
-
 / You may be asking yourselves: do we have to write all these files? Of course not.
 
 / We're going to use an IDE, or integrated development environment, which is a software that performs a lot of your tasks automatically.
@@ -293,6 +302,8 @@ I'm going to use VSCode for this workshop because it's very easy to use, but the
 
 Once we're happy with our project, we will see our publishing options.
 
+Hopefully, you will spend most of your time in step 2.
+And I recommend starting with a minimal version of your portfolio and publishing it, so that you can add more content incrementally.
 :::
 
 
@@ -311,13 +322,12 @@ Once we're happy with our project, we will see our publishing options.
 ::: {.column width="55%"}
 [![](images/createblogvscode.png)]("Create Project menu in VSCode")
 :::
-
 ::::
-
 
 :::{.notes}
 But let's begin with our first steps.
 
+I'm going to open VSCode and walk you through this part.
 :::
 
 
@@ -374,7 +384,6 @@ about:
       href: https://github.com/jstrappa
 
 As a Research and Development Scientist, I bring a unique combination of scientific expertise and leadership skills to drive innovation and discovery. With premier distinctions in astrophysics, exoarchaeology, exobiology, and zoology from Starfleet Academy, I have a deep understanding of various scientific disciplines. As the Chief Science Officer of Deep Space Nine, I discovered the Bajoran wormhole, opening up a new era in Federation history. I also successfully commanded a critical mission to destroy a major Dominion sensor array, significantly impacting their dominance in five sectors. I am excited to bring my diverse skill set to a new challenge and make significant contributions to the field of research and development.
-
 ---
 
 
@@ -504,9 +513,7 @@ comments: false
 1. Sign up at Quarto Pub: [https://quartopub.com/sign-up](https://quartopub.com/sign-up)
 
 :::{.r-stack}
-
 ![](images/quartopubsign.png){width=80%}
-
 :::
 
 ##
@@ -514,9 +521,7 @@ comments: false
 2. In the terminal, type: `quarto publish quarto-pub`
 3. Authenticate (first time)
 
-
 :::: {.columns}
-
 ::: {.column width="70%"}
 ![](images/terminal-publish.png)
 :::
@@ -534,7 +539,7 @@ comments: false
 
 ![](images/portfolio-about-favicon-published.png)
 
-# Final thoughts
+# Final thoughts (off-topic)
 
 ## It looks so easy, but... (we're trans)
 
@@ -581,15 +586,11 @@ comments: false
 :::
 
 
-
 # Thank you for joining
 
-
 :::{.r-stack}
-
 ![](images/yourehere.jpg){width=60%}
 :::
-
 
 ## Useful links {.smaller}
 
@@ -599,21 +600,16 @@ comments: false
 - [Quarto tutorial for Data Science web portfolio (RStudio)](https://deepshamenghani.quarto.pub/portfolio-with-quarto-workshop)
 - [Markdown basics](https://daringfireball.net/projects/markdown/basics), [Markdown Guide](https://www.markdownguide.org/)
 
-
-
-
 ### Alternative IDEs:
 - Download & Install [RStudio](https://posit.co/downloads/)
 - Sign up to use [Posit Cloud (previously RStudio Cloud)](https://posit.cloud/)
-
 
 ### Alternative publishing options:
 - [Netlify](https://quarto.org/docs/publishing/netlify.html), [Github Pages](https://quarto.org/docs/publishing/github-pages.html), [and more...](https://quarto.org/docs/publishing/)
 - Other formats, such as PDF, epub, etc.
 
-
 ::: {.notes}
-Here are some useful links, which I hope are available in the chat. And credits for some of the content I've used.
+Here are some useful links, which you will be able to check in the slides online. And credits for some of the content I've used.
 :::
 
 ## Credits {.smaller}
