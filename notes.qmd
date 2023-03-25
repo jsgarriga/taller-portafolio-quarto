@@ -498,7 +498,16 @@ comments: false
 2. In the terminal, type: `quarto publish quarto-pub`
 3. Authenticate (first time)
 
+
+:::: {.columns}
+
+::: {.column width="70%"}
 ![](images/terminal-publish.png)
+:::
+::: {.column width="30%"}
+![](images/authorize.png)
+::: 
+::::
 
 ## Published portfolio: Homepage
 
