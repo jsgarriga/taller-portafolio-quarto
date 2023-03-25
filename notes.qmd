@@ -30,7 +30,7 @@ CONICET (National Scientific and Technical Research Council, Argentina)
 ::: {.column width="50%"}
 
 ### Yaz Garriga
-- papagaye
+- ...
 
 :::
 
@@ -312,7 +312,7 @@ But let's begin with our first steps.
 [![](images/skeleton.png)]("Project structure in VSCode")
 
 
-## `_quarto.yml`
+## `_quarto.yml` {.smaller}
 
 ```{.yml}
 project:
@@ -338,7 +338,7 @@ format:
 - Choose title, add social media links, and choose a [blog theme](https://quarto.org/docs/websites/website-blog.html#themes)
 
 
-## `about.qmd`
+## `about.qmd` {.smaller}
 
 ```{.yml}
 ---
@@ -367,7 +367,7 @@ As a Research and Development Scientist, I bring a unique combination of scienti
 - There are more [templates](https://quarto.org/docs/websites/website-about.html#templates)
 
 
-## Post template: `index.qmd`
+## Post template: `index.qmd` {.smaller}
 
 ```{.yml}
 ---
@@ -400,7 +400,7 @@ Since this post doesn't specify an explicit `image`, the first image in the post
 - **Tip**: Keep a `template` folder for posts with this file inside. When making a new post, copy it, rename it, and edit the content to make your post. Change `draft: false` to make it public.
 
 
-## Example Post
+## Example Post {.smaller}
 
 ```{.yml}
 ---
@@ -559,7 +559,8 @@ comments: false
 
 ## Useful links {.smaller}
 
-- Workshop slides: TODO
+- Workshop slides: [view](https://jstrappa.quarto.pub/quarto-portfolio-workshop) | [source](https://github.com/jstrappa/quarto-portfolio-workshop)
+- Jadzia Dax's portfolio: [view](https://jstrappa.quarto.pub/deep-space-solutions/) | [source (`jd-portfolio`)](https://github.com/jstrappa/quarto-portfolio-workshop)
 - [Quarto tutorial for blog (VSCode / RStudio / Terminal)](https://quarto.org/docs/websites/website-blog.html)
 - [Quarto tutorial for Data Science web portfolio (RStudio)](https://deepshamenghani.quarto.pub/portfolio-with-quarto-workshop)
 - [Markdown basics](https://daringfireball.net/projects/markdown/basics), [Markdown Guide](https://www.markdownguide.org/)
@@ -588,12 +589,9 @@ Here are some useful links, which I hope are available in the chat. And credits 
 - [Jadzia Dax - Memory Alpha](https://memory-alpha.fandom.com/wiki/Jadzia_Dax)
 - [Jadzia Dax - Wikipedia](https://en.wikipedia.org/wiki/Jadzia_Dax)
 - Jadzia photo: [Wikipedia](https://en.wikipedia.org/wiki/File:JadziaDax.jpg), © Paramount Pictures
-- Favicon: 
+- Favicon: [Star Trek Deep Space Nine](https://icons8.com/icon/1NsQsxPDsTZJ/star-trek-deep-space-nine) icon by [Icons8](https://icons8.com)
 
 
-```{=html}
-<a target="_blank" href="https://icons8.com/icon/1NsQsxPDsTZJ/star-trek-deep-space-nine">Star Trek Deep Space Nine</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-```
 
 
 
