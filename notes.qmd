@@ -10,12 +10,17 @@ format:
       side: right
       width: normal
 ---
-## About 
+## About {.smaller}
 
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="47%"}
+
+
+:::{.r-stack}
+![](images/jan.jpg){width=200px}
+:::
 
 ### Jan Strappa 
 (they / them)
@@ -27,10 +32,20 @@ CONICET (National Scientific and Technical Research Council, Argentina)
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="47%"}
 
-### Yaz Garriga
-- ...
+:::{.r-stack}
+![](images/jess.jpg){width=200px}
+:::
+
+
+### Jess Garriga
+(they / them)
+
+- Student of Sociology at the National University of Cuyo (Argentina). 
+
+- They are currently working on a research project on "Big Data and Social Sciences".
+
 
 :::
 
@@ -50,7 +65,8 @@ I'm currently working as a researcher in Machine Learning and Parallel Computing
 I am also a co-founder and member of R-Ladies Mendoza.
 which is a community of R users that welcomes people of all underrepresented genders in tech, including trans men and nonbinary people.
 
-This workshop was made in collaboration with Yaz Garriga, who is a student of Sociology and...
+This workshop was made in collaboration with Jess Garriga, who is a student of Sociology and they're currently working on several projects regarding topics in the intersection of Big Data, Data Analysis, and Social Sciences.
+
 
 We made the materials together, and I'm going to be the speaker today.
 
@@ -531,6 +547,8 @@ comments: false
 
 ## My thoughts {.smaller}
 
+:::: {.columns}
+::: {.column width="65%"}
 - No single answer; do what feels best for you
 - It's OK to have different information for different audiences (e.g. resume vs public)
 - It's OK to have conflicting information (e.g. you wrote an article under your previous name, you can cite yourself with your REAL name)
@@ -539,8 +557,15 @@ comments: false
      - configure irrelevant accounts to be hidden from web search engines
      - the 'right to be forgotten': asking for private information to be deleted from public view (usually not easy to achieve)
      - create more profiles on websites that have high visibility to draw more attention to your *current* situation, not past 
+:::
+::: {.column width="35%"}
+![](images/please.jpg)
 
-[*Remember that you are valid and deserve unconditional love!*]{style="background=yellow;"}
+
+[*Remember that you are valid and deserve unconditional love!*]{style="background-color:cyan;"}
+:::
+::::
+
 
 ::: {.notes}
 - There is no single answer so don't try to find the perfect fix for everything
