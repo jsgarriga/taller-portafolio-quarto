@@ -4,11 +4,13 @@ format:
   revealjs: 
     theme: white
     logo: images/logo.png
+    css: logo.css
     footer: "Create your stunning web portfolio with Quarto"
     slide-number: true
     menu:
       side: right
       width: normal
+    code-overflow: wrap
 ---
 ## About {.smaller}
 
@@ -25,10 +27,10 @@ format:
 :::
 ::::
 
-- Dr. in Computer Science, Information Systems Engineer
-CONICET (National Scientific and Technical Research Council, Argentina) 
+Dr. in Computer Science, Information Systems Engineer
+at CONICET (National Scientific and Technical Research Council, Argentina) 
 
-- Co-founder and organizer of **R-Ladies Mendoza** (see [R-Ladies Global](https://www.rladies.org/))
+Co-founder and organizer of **R-Ladies Mendoza** (see [R-Ladies Global](https://www.rladies.org/))
 
 ![](images/envelope-solid.svg){width=16px} 
 [jansf@disroot.org](mailto://jansf@disroot.org)
@@ -56,9 +58,9 @@ CONICET (National Scientific and Technical Research Council, Argentina)
 :::
 ::::
 
-- Student of Sociology at the National University of Cuyo (Argentina). 
+Student of Sociology at the National University of Cuyo (Argentina). 
 
-- They are currently working on a research project on "Big Data and Social Sciences".
+They are currently working on a research project on "Big Data and Social Sciences".
 
 ![](images/linkedin.svg){width=16px} [Jess Garriga](https://www.linkedin.com/in/jess-garriga-b8bb95240/)
 
@@ -80,6 +82,9 @@ This workshop was made in collaboration with Jess Garriga, who is a student of S
 
 We made the materials together, and I'm going to be the speaker today.
 :::
+
+
+
 
 ## Online slides
 
@@ -382,10 +387,9 @@ about:
     - icon: github
       text: Speaker's Github
       href: https://github.com/jstrappa
-
-As a Research and Development Scientist, I bring a unique combination of scientific expertise and leadership skills to drive innovation and discovery. With premier distinctions in astrophysics, exoarchaeology, exobiology, and zoology from Starfleet Academy, I have a deep understanding of various scientific disciplines. As the Chief Science Officer of Deep Space Nine, I discovered the Bajoran wormhole, opening up a new era in Federation history. I also successfully commanded a critical mission to destroy a major Dominion sensor array, significantly impacting their dominance in five sectors. I am excited to bring my diverse skill set to a new challenge and make significant contributions to the field of research and development.
 ---
 
+As a Research and Development Scientist, I bring a unique combination of scientific expertise and leadership skills to drive innovation and discovery. With premier distinctions in astrophysics, exoarchaeology, exobiology, and zoology from Starfleet Academy, I have a deep understanding of various scientific disciplines. As the Chief Science Officer of Deep Space Nine, I discovered the Bajoran wormhole, opening up a new era in Federation history. I also successfully commanded a critical mission to destroy a major Dominion sensor array, significantly impacting their dominance in five sectors. I am excited to bring my diverse skill set to a new challenge and make significant contributions to the field of research and development.
 
 ```
 - Save your picture as `profile.jpg`, choose template, add social media links, and write your *about* text!
@@ -506,6 +510,21 @@ comments: false
 </iframe>
 ```
 
+## Additional elements: favicon
+
+![](images/what-is-favicon.png){width=30%}
+
+1. Find or make an icon and save it inside your project folder; e.g. `images/favicon.png`
+
+2. In `_quarto.yml`, add inside `website`: 
+
+```{.yml}
+website:
+  favicon: "images/favicon.png"
+```
+
+
+
 # Publishing
 
 ## How to publish your Quarto portfolio
@@ -561,7 +580,7 @@ comments: false
      - some information is not needed (age, gender)
      - configure irrelevant accounts to be hidden from web search engines
      - the 'right to be forgotten': asking for private information to be deleted from public view (usually not easy to achieve)
-     - create more profiles on websites that have high visibility to draw more attention to your *current* situation, not past 
+     - create profiles on highly visible websites to draw more attention to your *current* situation, not past 
 :::
 ::: {.column width="35%"}
 ![](images/please.jpg)
