@@ -1,0 +1,12 @@
+---
+title: "My first project"
+author: "Jadzia"
+date: "2023-03-20"
+categories: [news]
+---
+
+This is the first project
+
+![Space](space.jpg)
+
+Credit: [Astronomy Picture of the Day](https://apod.nasa.gov/apod/ap230324.html)

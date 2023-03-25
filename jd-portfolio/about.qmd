@@ -1,0 +1,19 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: My twitter
+      href: https://twitter.com/4terryfarrell
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com
+
+---
+
+As a Research and Development Scientist, I bring a unique combination of scientific expertise and leadership skills to drive innovation and discovery. With premier distinctions in astrophysics, exoarchaeology, exobiology, and zoology from Starfleet Academy, I have a deep understanding of various scientific disciplines. As the Chief Science Officer of Deep Space Nine, I discovered the Bajoran wormhole, opening up a new era in Federation history. I also successfully commanded a critical mission to destroy a major Dominion sensor array, significantly impacting their dominance in five sectors. I am excited to bring my diverse skill set to a new challenge and make significant contributions to the field of research and development.

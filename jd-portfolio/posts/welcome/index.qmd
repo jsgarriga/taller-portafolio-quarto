@@ -1,0 +1,13 @@
+---
+title: "Welcome To My Blog"
+author: "Jadzia"
+date: "2023-03-20"
+categories: [news]
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+This is an example portfolio made for the fictional character **Jadzia Dax** from *Star Trek: Deep Space Nine*.
+

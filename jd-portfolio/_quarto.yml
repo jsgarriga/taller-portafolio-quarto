@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Deep Space Solutions"
+  favicon: "images/favicon.png"
+  navbar:
+    right:
+      - about.qmd
+      - text: Projects
+        href: projects.qmd
+      - icon: github
+        href: https://github.com/jstrappa
+      - icon: twitter
+        href: https://twitter.com/4terryfarrell
+      - text: CV
+        href: resume.qmd
+
+format:
+  html:
+    theme: 
+      light: journal
+      dark: vapor
+    css: styles.css
+

@@ -1,0 +1,22 @@
+---
+title: 'Wormhole discovery'
+subtitle: 'Journal entry'
+author:
+  - name: Jadzia
+date: "04/13/2369"
+lang: en
+categories:
+  - data
+  - code
+  - blog
+draft: false # change to false to publish
+description: 'My journal entry for when I found the wormhole'
+image: ""
+archives:
+  - ""
+---
+
+Something something
+
+![](wormhole.jpg)
+

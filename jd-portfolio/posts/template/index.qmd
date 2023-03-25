@@ -1,0 +1,25 @@
+---
+title: 'post title'
+subtitle: 'post subtitle'
+author:
+  - name: your name
+date: "mm/dd/yyyy"
+lang: en
+categories:
+  - data
+  - code
+  - blog
+draft: true # change to false to publish!
+description: 'description for this post'
+image: ""
+archives:
+  - ""
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+## Section
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
