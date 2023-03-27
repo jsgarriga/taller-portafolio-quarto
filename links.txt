@@ -1,0 +1,21 @@
+============
+COPY TO CHAT
+============
+
+- Slides: https://jstrappa.quarto.pub/quarto-portfolio-workshop/
+
+- Visual Studio Code: https://code.visualstudio.com
+- Quarto: https://quarto.org/docs/get-started
+- In VSCode, install Quarto extension: Extensions → search bar: “quarto” → Install (alternatively, see https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
+- Sign up for Quarto Pub: https://quartopub.com/sign-up
+
+- Questions: https://www.menti.com/alfqty7y7jb8
+
+
+=======
+ONLY ME
+=======
+
+Mentimeter presentation:
+
+https://www.mentimeter.com/app/presentation/al5o7emb2kd5fj18rts6xmcoma83pkna/4x17ct5xm5ps

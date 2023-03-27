@@ -32,9 +32,6 @@ at CONICET (National Scientific and Technical Research Council, Argentina)
 
 Co-founder and organizer of **R-Ladies Mendoza** (see [R-Ladies Global](https://www.rladies.org/))
 
-![](images/envelope-solid.svg){width=16px} 
-[jansf@disroot.org](mailto://jansf@disroot.org)
-
 ![](images/github.svg){width=16px} 
 [jstrappa](https://github.com/jstrappa) | 
 ![](images/mastodon.png){width=16px} 
@@ -107,13 +104,13 @@ A portfolio is a collection of highlighted projects and previous works that show
 
 :::: {.columns}
 ::: {.column width="50%"}
-### Let's check out some cool Quarto portfolios
+#### Let's check out some cool Quarto portfolios
 
-[Andreas Handel](https://www.andreashandel.com/)
+- Andreas Handel: [andreashandel.com](https://www.andreashandel.com/)
 
-[Danielle Navarro](https://blog.djnavarro.net/)
+- Danielle Navarro: [blog.djnavarro.net](https://blog.djnavarro.net/)
 
-[Bea Milz](https://beamilz.com/)
+- Bea Milz: [beamilz.com](https://beamilz.com/)
 :::
 ::: {.column width="50%"}
 :::
@@ -124,6 +121,10 @@ A portfolio is a collection of highlighted projects and previous works that show
 
 :::{.notes}
 So, let's begin by saying that a portfolio is...
+
+This is a very popular tool to help you in your job search, although it's not mandatory.
+
+It doesn't replace your CV, but it can complement your CV with more info.
 
 And I want to show you some cool portfolios, all of them made with Quarto. 
 
@@ -144,16 +145,20 @@ What I'm going to show you is much simpler, but I wanted you take a glimpse of w
 · · ·
 :::
 
-### Question {style="color: darkred;"}
 
-As a trans / LGBTQ+ / queer person, what do you feel is your greatest challenge for making a portfolio, profile, etc?
+### Questions for the audience {style="color: darkred;"}
+
+[https://www.menti.com/alfqty7y7jb8](https://www.menti.com/alfqty7y7jb8)
+
 
 ::: {.notes}
 - attractive, professional, customizable 
 - a place to keep your info updated: it's useful to have a link to your website on job applications or on your resume so that others can see your latest work, even if they have an outdated file
 - tell your story in your own words, because you can choose what to show about yourself and how to show it... I can't emphasize enough how important this is for trans people, since we can be especially vulnerable when we cannot control the information that is published about us
 
-I want to ask a question...
+Before we start, I want to ask a question to understand your main challenges and your background.
+
+Please open the link in the chat...
 
 :::
 
@@ -171,6 +176,7 @@ I want to ask a question...
 ![](images/quarto.png){.absolute top=100 right=70}
 
 :::{.notes}
+Now that I know something about you, I'm going to try to describe what are the benefits of this tool.
 
 You don't need to know programming, although it's good if you can understand errors, for example in rendering and how to search for a solution
 
@@ -187,6 +193,7 @@ You have many hosting options (free / paid)
 And if you *are* a programmer, you can embed and execute code in different languages, and you have several tools for showing,copying and hiding source code which are really great.
 
 :::
+
 
 ## First steps 
 
@@ -510,9 +517,9 @@ comments: false
 </iframe>
 ```
 
-## Additional elements: favicon
+## Additional elements: favicon {.smaller}
 
-![](images/what-is-favicon.png){width=30%}
+![](images/what-is-favicon.jpg){fig-align="center"}
 
 1. Find or make an icon and save it inside your project folder; e.g. `images/favicon.png`
 
@@ -523,7 +530,12 @@ website:
   favicon: "images/favicon.png"
 ```
 
+### 
 
+#### Where to get icons
+
+- [icons8.com](https://icons8.com/)
+- [flaticon.com](https://www.flaticon.com/)
 
 # Publishing
 
@@ -617,15 +629,16 @@ website:
 - Jadzia Dax's portfolio: [view](https://jstrappa.quarto.pub/deep-space-solutions/) | [source (`jd-portfolio`)](https://github.com/jstrappa/quarto-portfolio-workshop)
 - [Quarto tutorial for blog (VSCode / RStudio / Terminal)](https://quarto.org/docs/websites/website-blog.html)
 - [Quarto tutorial for Data Science web portfolio (RStudio)](https://deepshamenghani.quarto.pub/portfolio-with-quarto-workshop)
+- [Bea Milz's tutorial for creating a blog with Quarto](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/)
 - [Markdown basics](https://daringfireball.net/projects/markdown/basics), [Markdown Guide](https://www.markdownguide.org/)
 
-### Alternative IDEs:
+
+#### Alternative IDEs:
 - Download & Install [RStudio](https://posit.co/downloads/)
 - Sign up to use [Posit Cloud (previously RStudio Cloud)](https://posit.cloud/)
 
-### Alternative publishing options:
-- [Netlify](https://quarto.org/docs/publishing/netlify.html), [Github Pages](https://quarto.org/docs/publishing/github-pages.html), [and more...](https://quarto.org/docs/publishing/)
-- Other formats, such as PDF, epub, etc.
+#### Alternative publishing options:
+- [Netlify, Github Pages, and more...](https://quarto.org/docs/publishing/)
 
 ::: {.notes}
 Here are some useful links, which you will be able to check in the slides online. And credits for some of the content I've used.
