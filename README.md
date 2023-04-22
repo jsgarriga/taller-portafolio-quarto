@@ -1,4 +1,4 @@
-![img](./files/quarto3.png)
+![img](./images/quarto3.png)
 
 # quarto-portfolio-workshop
 Workshop slides for my presentation at the TransTech Summit 2023.
