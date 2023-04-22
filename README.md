@@ -3,6 +3,8 @@
 # Taller portafolio - FliSol 2023
 Taller realizado por R-Ladies Mendoza para la FliSol Valle de Uco 2023
 
+Grupo de Meetup de R-Ladies Mendoza: https://www.meetup.com/es/rladies-mendoza/
+
 Título: 
 
 **"Crea tu portafolio web con Quarto y RStudio"**
