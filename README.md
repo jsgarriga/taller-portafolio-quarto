@@ -1,6 +1,6 @@
 ![img](./images/quarto3.png)
 
-# Edición en español para la FliSol 2023
+# Taller portafolio - FliSol 2023
 Taller realizado por R-Ladies Mendoza para la FliSol Valle de Uco 2023
 
 Título: 
@@ -8,6 +8,8 @@ Título:
 **"Crea tu portafolio web con Quarto y RStudio"**
 
 Evento: [https://eventol.flisol.org.ar/events/flisol-vera-2023/activity/412/](https://eventol.flisol.org.ar/events/flisol-vera-2023/activity/412/)
+
+Diapositivas en línea: https://jgarriga.quarto.pub/taller-portafolio-flisol/
 
 Tipo: Workshop / Taller
 
